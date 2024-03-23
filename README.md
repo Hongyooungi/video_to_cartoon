@@ -30,6 +30,14 @@ The program has a cartoon effect on the original mp4 image using opencv.
 
 ![readme02](https://github.com/Hongyooungi/video_to_cartoon/assets/127743990/d418250e-3725-494c-8a54-b1da9c83b6b8)
 
+
+<2차 수정된 이미지>
+
+위의 이미지에서 노이즈가 발생하는 것 같아 MedianBlur 9, 이진화 115, 255 로 변수를 설정했다.
+
+![readme03](https://github.com/Hongyooungi/video_to_cartoon/assets/127743990/ac8bf8ce-4f55-477a-baf6-dacc306e4524)
+
+
 <알고리즘의 한계>
 
 - 해당 알고리즘은 변수가 지정된 상태로 영상에 들어간다.
@@ -39,8 +47,7 @@ The program has a cartoon effect on the original mp4 image using opencv.
 
 ![GIFMaker_me](https://github.com/Hongyooungi/video_to_cartoon/assets/127743990/151f4e9c-d46c-4119-be59-1c4c2e997d1c)
 
-<2차 수정된 이미지>
 
-위의 이미지에서 노이즈가 발생하는 것 같아 MedianBlur 9, 이진화 115, 255 로 변수를 설정했다.
 
-![readme03](https://github.com/Hongyooungi/video_to_cartoon/assets/127743990/ac8bf8ce-4f55-477a-baf6-dacc306e4524)
+- 위의 영상에서 볼 수 있듯이 카메라에 따라 카툰화가 잘되는 지점이 있고, 잘 안되는 지점이 있다.
+- 이를통해 실시간으로 카툰화를 해줄 수 있는 알고리즘의 필요성을 느꼈다.
