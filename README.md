@@ -25,11 +25,13 @@ The program has a cartoon effect on the original mp4 image using opencv.
 ![readme01](https://github.com/Hongyooungi/video_to_cartoon/assets/127743990/c0dac823-7b44-4391-921a-bc0d73f985e9)
 
 <수정된 이미지>
+
 위의 이미지에 Laplacian keysize = 5, MedianBlur 7 , 이진화 65, 255 로 변수를 설정했다.
 
 ![readme02](https://github.com/Hongyooungi/video_to_cartoon/assets/127743990/d418250e-3725-494c-8a54-b1da9c83b6b8)
 
 <2차 수정된 이미지>
+
 위의 이미지에서 노이즈가 발생하는 것 같아 MedianBlur 9, 이진화 115, 255 로 변수를 설정했다.
 
 ![readme03](https://github.com/Hongyooungi/video_to_cartoon/assets/127743990/ac8bf8ce-4f55-477a-baf6-dacc306e4524)
