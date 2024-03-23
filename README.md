@@ -37,6 +37,8 @@ The program has a cartoon effect on the original mp4 image using opencv.
 - 하지만, 카메라의 위치가 고정이 되어 있지 않고, 편집기술이 많이 들어간 영상에서는 만화적인 효과가 안정적이지 못하다.
 - 예시로 드라마 영상에서의 만화적인 효과를 보도록 하자
 
+![GIFMaker_me](https://github.com/Hongyooungi/video_to_cartoon/assets/127743990/151f4e9c-d46c-4119-be59-1c4c2e997d1c)
+
 <2차 수정된 이미지>
 
 위의 이미지에서 노이즈가 발생하는 것 같아 MedianBlur 9, 이진화 115, 255 로 변수를 설정했다.
