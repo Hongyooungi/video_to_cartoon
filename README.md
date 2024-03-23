@@ -30,6 +30,13 @@ The program has a cartoon effect on the original mp4 image using opencv.
 
 ![readme02](https://github.com/Hongyooungi/video_to_cartoon/assets/127743990/d418250e-3725-494c-8a54-b1da9c83b6b8)
 
+<알고리즘의 한계>
+
+- 해당 알고리즘은 변수가 지정된 상태로 영상에 들어간다.
+- 따라서, 고정된 위치에서는 앞에서 했던 것처럼 변수를 바꿔가며 수정을 할 수가 있다.
+- 하지만, 카메라의 위치가 고정이 되어 있지 않고, 편집기술이 많이 들어간 영상에서는 만화적인 효과가 안정적이지 못하다.
+- 예시로 드라마 영상에서의 만화적인 효과를 보도록 하자
+
 <2차 수정된 이미지>
 
 위의 이미지에서 노이즈가 발생하는 것 같아 MedianBlur 9, 이진화 115, 255 로 변수를 설정했다.
