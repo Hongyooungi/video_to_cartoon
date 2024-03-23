@@ -20,4 +20,4 @@ The program has a cartoon effect on the original mp4 image using opencv.
 2. 윤곽선이 잘 보인다
 3. 카메라의 움직임이 적다
 
-<원본 영상>
+<원본 영상 이미지>
